@@ -40,4 +40,4 @@ Welcome to the forge where my JavaScript skills are being sharpened! This reposi
 Excited to build and grow with JavaScript! Happy coding!
 <br>
 <br>
-AUTHOR - DEV .S 
+AUTHOR - DEV 
