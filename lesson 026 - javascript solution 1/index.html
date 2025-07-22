@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        🌀 while (true) kya hota hai?
+js
+Copy
+Edit
+while (true) {
+  // code...
+}
+🔁 Ye ek infinite loop hota hai.
+while ka matlab hota hai: jab tak condition true hai, tab tak loop chalta rahega.
+
+Aur agar tum true likh do condition mein, to matlab:
+
+👉 Ye loop kabhi khud se nahi rukega — bas chalta hi rahega.
+
+=> Toh kya ye kabhi rukega hi nahi?
+Nahi — jab tak tum loop ke andar break nahi likhte, tab tak ye chalta rahega.
+
+js
+Copy
+Edit
+while (true) {
+  let answer = prompt("Type 'exit' to stop:");
+
+  if (answer === "exit") {
+    break;  // loop yahin ruk jaayega
+  }
+}
+Yahan break ka use kiya gaya hai loop ko manually todne ke liye.
+    </pre>
+    <script src="index.js"></script>
+</body>
+</html>
