@@ -1,0 +1,17 @@
+.yellow{
+background-color: yellow;
+margin: 0;
+padding: 10px;
+}
+
+.red{
+    background-color: red;
+    margin: 0;
+    padding: 10px;
+}
+
+.gray{
+    background-color: #cecece;
+    margin: 0;
+    padding: 10px;
+}
