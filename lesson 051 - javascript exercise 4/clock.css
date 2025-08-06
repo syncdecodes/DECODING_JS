@@ -1,0 +1,29 @@
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #adadad8f;
+    font-size: 1.4rem;
+}
+
+/* .clock{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 75px;
+    position: absolute;
+    top: 0;
+    margin: 8px;
+}
+
+.hour{
+    height: 40px;
+    border: 1px solid black;
+    width: 0vw;
+    position: absolute;
+    left: 38px;
+    top: 0;
+    margin: 20px;
+} */
+
