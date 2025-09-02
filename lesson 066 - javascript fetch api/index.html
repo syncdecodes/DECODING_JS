@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+<body>
+
+    <pre>
+        In JavaScript, API stands for Application Programming Interface. It’s not specific to JavaScript alone—APIs exist in many programming environments—but in the context of JavaScript, especially in web development, "API" typically refers to:
+
+1. Web APIs
+These are built-in browser features that JavaScript can use to interact with the browser or the web page.
+
+Examples:
+DOM API – lets you interact with HTML elements (e.g., document.querySelector()).
+
+Fetch API – allows you to make HTTP requests to servers (fetch('https://api.example.com')).
+
+Geolocation API – lets you access the user's location (navigator.geolocation.getCurrentPosition()).
+
+Local Storage API – allows storing data in the browser (localStorage.setItem()).
+
+2. Third-Party APIs
+These are services provided by other websites or companies that you can use by making HTTP requests.
+
+Examples:
+Google Maps API (for embedding maps)
+
+OpenWeatherMap API (for weather data)
+
+Twitter API (for posting tweets, getting user data, etc.)
+
+You typically access these APIs using fetch() or libraries like axios.
+
+javascript
+Copy
+Edit
+fetch('https://api.openweathermap.org/data/2.5/weather?q=London&appid=yourKey')
+  .then(response => response.json())
+  .then(data => console.log(data));
+3. JavaScript Library APIs
+If you use libraries or frameworks (like React, jQuery, or Lodash), the functions and methods they expose are also considered APIs.
+
+In Summary:
+An API in JavaScript is a set of functions or protocols that allow your JavaScript code to interact with:
+
+the browser (Web APIs),
+
+external services (Third-Party APIs), or
+
+libraries/frameworks (Library APIs).
+  </pre>
+    <script src="index.js"></script>
+</body>
+</html>
