@@ -1,0 +1,1 @@
+console.log("Get is default in fetch")
