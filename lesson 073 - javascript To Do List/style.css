@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(135deg, red, orange);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    border: 2px solid black;
+    min-height: 15rem;
+    width: 30rem;
+    margin: auto;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.work-input {
+    height: 2rem;
+    width: 15rem;
+    margin-left: .5rem;
+}
+
+.time {
+    height: 2rem;
+    width: 5rem;
+}
+
+.time-input {
+    width: 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.task-list li {
+    background-color: rgb(238, 237, 237);
+    width: 25rem;
+    min-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem .2rem 1rem .2rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+    gap: 1rem;
+}
+
+.task-list li span {
+    flex: 1;
+    /* jitna bacha hua space milega use kar lega */
+    word-wrap: break-word;
+    /* agar lamba word hai toh tod de */
+    overflow-wrap: anywhere;
+    /* modern browsers ke liye */
+}
+
+.task-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    font-size: .9rem;
+    border-radius: .6rem;
+}
+
+.task-list button:hover {
+    background-color: rgb(233, 2, 2);
+}
+
+.AC {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    border-radius: .6rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.AC:hover {
+    background-color: rgb(233, 0, 0);
+}
+
+.Add_btn {
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: .3rem;
+    margin-right: .1rem;
+    cursor: pointer;
+}
+
+.Add_btn:hover {
+    background-color: rgb(0, 92, 213);
+}
