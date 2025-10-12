@@ -1,5 +1,4 @@
-# DECODING_JS
-## 🚀 DECODING JAVASCRIPT
+# 🚀 DECODING JAVASCRIPT
 
 Welcome to the forge where my JavaScript skills are being sharpened! This repository is where I'm actively building my skills, turning concepts into code, and tackling new challenges. every line of code here represents a step forward, a challenge conquered, and a concept firmly grasped.
 
