@@ -38,6 +38,5 @@ but suggestions, tips, or learning resources are always welcome!
 
 ## ✍️ AUTHOR
 
-DEV
-
-Created by [syncdecodes](https://github.com/syncdecodes)
+DEV <br>
+Created by [imdevvx](https://github.com/imdevvx)
